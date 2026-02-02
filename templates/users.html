@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="../style/dashboard.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="containerFather">
+        <section class="container1">
+            <h1>User</h1>
+        </section>
+
+        <section class="container2">
+            <h2>hoa</h2>
+        </section>
+
+        <section class="container3">
+            <div class="son1-container3">
+                <h2>Task Manager</h2>
+                <button id="openModal">add Task</button>
+            </div>
+
+            <section class="son2-container3">
+                <div class="grandson1"></div>
+                <div class="grandson2"></div>
+                <div class="grandson3"></div>
+                <div class="grandson4"></div>
+            </section>
+
+            <div id="containerUser" class="son-conyainer3">
+            </div>
+        </section>
+    </div>
+
+    
+    <dialog id="modal">
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+
+        <button id="closeModal">Cerrar</button>
+    </dialog>
+
+
+
+    <script type="module" src="../shared/listening.js"></script>
+    <script type="module" src="../js/logout.js"></script>
+</body>
+
+</html>
