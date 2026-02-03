@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "id": "7a12",
+      "name": "juan",
+      "email": "juan@gmail.com",
+      "password": "123456",
+      "role": "Manager",
+      "phone": "+57 300 123 4567"
+    },
+    {
+      "name": "tomy",
+      "email": "tomy@gmail.com",
+      "password": "123456",
+      "role": "Employees",
+      "id": "YvyQQHO"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "dasdas",
+      "userId": "YvyQQHO",
+      "category": "Matemática",
+      "priority": "Alto",
+      "status": "Completada",
+      "date": "2026-02-02",
+      "description": "1231442342",
+      "id": "NEqcX4t"
+    },
+    {
+      "title": "dsad",
+      "userId": "YvyQQHO",
+      "category": "Matemática",
+      "priority": "Medio",
+      "status": "Completada",
+      "date": "2026-02-02",
+      "description": "dasdas",
+      "id": "pAUeUcr"
+    }
+  ]
+}
